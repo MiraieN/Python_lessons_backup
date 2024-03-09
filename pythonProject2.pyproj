@@ -1,0 +1,256 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{887d1c1e-b5ec-4b5d-9857-a4cd49c665a0}</ProjectGuid>
+    <ProjectHome />
+    <StartupFile>main.py</StartupFile>
+    <SearchPath />
+    <WorkingDirectory>.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+    <ProjectTypeGuids>{888888a0-9f3d-457c-b088-3a5042f75d52}</ProjectTypeGuids>
+    <LaunchProvider>Standard Python launcher</LaunchProvider>
+    <InterpreterId>MSBuild|tempProject|$(MSBuildProjectFullPath)</InterpreterId>
+    <TestFramework>Pytest</TestFramework>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)' == 'Debug'" />
+  <PropertyGroup Condition="'$(Configuration)' == 'Release'" />
+  <PropertyGroup>
+    <VisualStudioVersion Condition=" '$(VisualStudioVersion)' == '' ">10.0</VisualStudioVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <Content Include="Cat.png" />
+    <Content Include="eraser.png" />
+    <Content Include="file1.txt" />
+    <Content Include="file2.txt" />
+    <Content Include="g_icon_254085.ico" />
+    <Content Include="g_icon_254085.png" />
+    <Content Include="integrity.ico" />
+    <Content Include="login window\1.ico" />
+    <Content Include="login window\2.ico" />
+    <Content Include="login window\3.ico" />
+    <Content Include="login window\calc_icon.png" />
+    <Content Include="Maboi.txt" />
+    <Content Include="Nice_cat.png" />
+    <Content Include="output\main\altgraph-0.17.2.dist-info\top_level.txt" />
+    <Content Include="output\main\cffi-1.15.0.dist-info\entry_points.txt" />
+    <Content Include="output\main\cffi-1.15.0.dist-info\top_level.txt" />
+    <Content Include="output\main\google_api_core-2.12.0.dist-info\namespace_packages.txt" />
+    <Content Include="output\main\google_api_core-2.12.0.dist-info\top_level.txt" />
+    <Content Include="output\main\google_api_python_client-2.104.0.dist-info\top_level.txt" />
+    <Content Include="output\main\httplib2\cacerts.txt" />
+    <Content Include="output\main\pyinstaller-5.1.dist-info\COPYING.txt" />
+    <Content Include="output\main\pyinstaller-5.1.dist-info\entry_points.txt" />
+    <Content Include="output\main\pyinstaller-5.1.dist-info\top_level.txt" />
+    <Content Include="output\main\setuptools-57.0.0.dist-info\dependency_links.txt" />
+    <Content Include="output\main\setuptools-57.0.0.dist-info\entry_points.txt" />
+    <Content Include="output\main\setuptools-57.0.0.dist-info\top_level.txt" />
+    <Content Include="output\main\wheel-0.36.2.dist-info\entry_points.txt" />
+    <Content Include="output\main\wheel-0.36.2.dist-info\LICENSE.txt" />
+    <Content Include="output\main\wheel-0.36.2.dist-info\top_level.txt" />
+    <Content Include="Peihel\apercot.png" />
+    <Content Include="Peihel\cantaloupe.png" />
+    <Content Include="Peihel\dog.png" />
+    <Content Include="Peihel\form data.txt" />
+    <Content Include="prev_lessons\x_and_y.txt" />
+    <Content Include="resources\colors with name.txt" />
+    <Content Include="resources\colors.txt" />
+    <Content Include="tkinter projects\miles to kilometers\icon.ico" />
+    <Content Include="tkinter projects\slot_machine\pics\apercot.png" />
+    <Content Include="tkinter projects\slot_machine\pics\cantaloupe.png" />
+    <Content Include="tkinter projects\slot_machine\pics\gac.png" />
+    <Content Include="tkinter projects\slot_machine\pics\kumquats.png" />
+    <Content Include="tkinter projects\slot_machine\pics\orange.png" />
+    <Content Include="tkinter projects\slot_machine\pics\persimmons.png" />
+    <Content Include="tkinter projects\slot_machine\pics\pumpkin.png" />
+    <Content Include="tkinter projects\slot_machine\pics\tangerine.png" />
+    <Content Include="white board\color section.png" />
+    <Content Include="white board\eraser.png" />
+    <Content Include="white board\pen.ico" />
+    <Content Include="white board\pen.png" />
+    <Content Include="white board\user_pen_icon_251954.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="bots.py" />
+    <Compile Include="calculator.py" />
+    <Compile Include="calc\main.py" />
+    <Compile Include="ckllll.py" />
+    <Compile Include="django_project\django_project\asgi.py" />
+    <Compile Include="django_project\django_project\settings.py" />
+    <Compile Include="django_project\django_project\urls.py" />
+    <Compile Include="django_project\django_project\wsgi.py" />
+    <Compile Include="django_project\django_project\__init__.py" />
+    <Compile Include="django_project\manage.py" />
+    <Compile Include="DnD Game\main.py" />
+    <Compile Include="For string docs formatting.py" />
+    <Compile Include="gui.py" />
+    <Compile Include="LeetCode\leetcode.py" />
+    <Compile Include="LeetCode\sortings.py" />
+    <Compile Include="LeetCode\testing.py" />
+    <Compile Include="lessons.py" />
+    <Compile Include="Lilya\classes_practice.py" />
+    <Compile Include="Lilya\Liliya.py" />
+    <Compile Include="login window\main.py" />
+    <Compile Include="main.py" />
+    <Compile Include="Masha_and_Sasha\Masha.py" />
+    <Compile Include="Masha_and_Sasha\SashaM.py" />
+    <Compile Include="mysite\manage.py" />
+    <Compile Include="mysite\mysite\asgi.py" />
+    <Compile Include="mysite\mysite\settings.py" />
+    <Compile Include="mysite\mysite\urls.py" />
+    <Compile Include="mysite\mysite\wsgi.py" />
+    <Compile Include="mysite\mysite\__init__.py" />
+    <Compile Include="OOP game.py" />
+    <Compile Include="Peihel\Peihel.py" />
+    <Compile Include="Peihel\temporary.py" />
+    <Compile Include="prev_lessons\arsen.py" />
+    <Compile Include="prev_lessons\for Max%28straight as a wet pasta%29.py" />
+    <Compile Include="prev_lessons\Human.py" />
+    <Compile Include="prev_lessons\Igor.py" />
+    <Compile Include="prev_lessons\LiliyaMarianna.py" />
+    <Compile Include="prev_lessons\Olexa.py" />
+    <Compile Include="prev_lessons\Olexandr.py" />
+    <Compile Include="prev_lessons\Polya.py" />
+    <Compile Include="prev_lessons\Sasha.py" />
+    <Compile Include="prev_lessons\tempo.py" />
+    <Compile Include="prev_lessons\turtle_funcs.py" />
+    <Compile Include="prev_lessons\village.py" />
+    <Compile Include="prev_lessons\village_funcs.py" />
+    <Compile Include="programming.py" />
+    <Compile Include="pygame_projects\bouncing ball with clones.py" />
+    <Compile Include="pygame_projects\bouncing_square\main.py" />
+    <Compile Include="pygame_projects\bouncing_square_with_gravitt.py" />
+    <Compile Include="pygame_projects\circle_in_circle\gpt_help.py" />
+    <Compile Include="pygame_projects\circle_in_circle\gpt_help_1.py" />
+    <Compile Include="pygame_projects\circle_in_circle\main.py" />
+    <Compile Include="pygame_projects\first_try.py" />
+    <Compile Include="pygame_projects\gravity_setup\colision_with_mass.py" />
+    <Compile Include="pygame_projects\gravity_setup\main.py" />
+    <Compile Include="pygame_projects\square_collision.py" />
+    <Compile Include="resources\colors.py" />
+    <Compile Include="sheet to python\main.py" />
+    <Compile Include="tkinter projects\Dumb test\main.py" />
+    <Compile Include="tkinter projects\easy calculator\main.py" />
+    <Compile Include="tkinter projects\game with timer\main.py" />
+    <Compile Include="tkinter projects\miles to kilometers\miles to kilometers.py" />
+    <Compile Include="tkinter projects\moving label with box\main.py" />
+    <Compile Include="tkinter projects\moving label with steps\label_with_steps_duplicated.py" />
+    <Compile Include="tkinter projects\moving label with steps\main.py" />
+    <Compile Include="tkinter projects\moving label with steps\main_with_classes.py" />
+    <Compile Include="tkinter projects\moving label\main.py" />
+    <Compile Include="tkinter projects\player and enemy\main.py" />
+    <Compile Include="tkinter projects\random words test game\main.py" />
+    <Compile Include="tkinter projects\simple_player_following\main-with_classes.py" />
+    <Compile Include="tkinter projects\simple_player_following\main.py" />
+    <Compile Include="tkinter projects\slot_machine\main.py" />
+    <Compile Include="tkinter projects\slot_machine\slots_with_numbers\main.py" />
+    <Compile Include="tkinter projects\Snake game classess\main.py" />
+    <Compile Include="tkinter projects\Snake game\main.py" />
+    <Compile Include="tkinter projects\Snake_game_spizhzheno\main.py" />
+    <Compile Include="tkinter projects\speed click game\main.py" />
+    <Compile Include="tkinter projects\Stopwatch_in_a_separate_window\main.py" />
+    <Compile Include="tkinter projects\Tamagochi\check.py" />
+    <Compile Include="tkinter projects\Tamagochi\click_in_time.py" />
+    <Compile Include="tkinter projects\Tamagochi\main.py" />
+    <Compile Include="tkinter projects\temp\1.py" />
+    <Compile Include="tkinter projects\temp\2.py" />
+    <Compile Include="tkinter projects\temp\after_test.py" />
+    <Compile Include="tkinter projects\temp\test.py" />
+    <Compile Include="tkinter projects\timer\main.py" />
+    <Compile Include="tkinter projects\walls decreasing\gpt_help.py" />
+    <Compile Include="tkinter projects\walls decreasing\main.py" />
+    <Compile Include="tkinter projects\walls decreasing\same_with_pygame.py" />
+    <Compile Include="Turtle_arts\flower_decreasing.py" />
+    <Compile Include="Turtle_arts\fractals.py" />
+    <Compile Include="Turtle_arts\fractals_shape.py" />
+    <Compile Include="Turtle_arts\H_fractals.py" />
+    <Compile Include="Turtle_arts\main.py" />
+    <Compile Include="Turtle_arts\simple_fractals.py" />
+    <Compile Include="Turtle_arts\squares_with_tunnels.py" />
+    <Compile Include="Turtle_arts\stars.py" />
+    <Compile Include="Turtle_arts\stars_fractals.py" />
+    <Compile Include="white board\main.py" />
+    <Compile Include="words API\find_the_definition_game\main.py" />
+    <Compile Include="words API\random words game\main.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="calc" />
+    <Folder Include="django_project" />
+    <Folder Include="django_project\django_project" />
+    <Folder Include="DnD Game" />
+    <Folder Include="LeetCode" />
+    <Folder Include="Lilya" />
+    <Folder Include="login window" />
+    <Folder Include="Masha_and_Sasha" />
+    <Folder Include="mysite" />
+    <Folder Include="mysite\mysite" />
+    <Folder Include="output\" />
+    <Folder Include="output\main\" />
+    <Folder Include="output\main\altgraph-0.17.2.dist-info" />
+    <Folder Include="output\main\cffi-1.15.0.dist-info" />
+    <Folder Include="output\main\google_api_core-2.12.0.dist-info" />
+    <Folder Include="output\main\google_api_python_client-2.104.0.dist-info" />
+    <Folder Include="output\main\httplib2" />
+    <Folder Include="output\main\pyinstaller-5.1.dist-info" />
+    <Folder Include="output\main\setuptools-57.0.0.dist-info" />
+    <Folder Include="output\main\wheel-0.36.2.dist-info" />
+    <Folder Include="Peihel" />
+    <Folder Include="prev_lessons" />
+    <Folder Include="pygame_projects" />
+    <Folder Include="pygame_projects\bouncing_square" />
+    <Folder Include="pygame_projects\circle_in_circle" />
+    <Folder Include="pygame_projects\gravity_setup" />
+    <Folder Include="resources" />
+    <Folder Include="sheet to python" />
+    <Folder Include="tkinter projects\" />
+    <Folder Include="tkinter projects\Dumb test" />
+    <Folder Include="tkinter projects\easy calculator" />
+    <Folder Include="tkinter projects\game with timer" />
+    <Folder Include="tkinter projects\miles to kilometers" />
+    <Folder Include="tkinter projects\moving label" />
+    <Folder Include="tkinter projects\moving label with box" />
+    <Folder Include="tkinter projects\moving label with steps" />
+    <Folder Include="tkinter projects\player and enemy" />
+    <Folder Include="tkinter projects\random words test game" />
+    <Folder Include="tkinter projects\simple_player_following" />
+    <Folder Include="tkinter projects\slot_machine" />
+    <Folder Include="tkinter projects\slot_machine\pics" />
+    <Folder Include="tkinter projects\slot_machine\slots_with_numbers" />
+    <Folder Include="tkinter projects\Snake game" />
+    <Folder Include="tkinter projects\Snake game classess" />
+    <Folder Include="tkinter projects\Snake_game_spizhzheno" />
+    <Folder Include="tkinter projects\speed click game" />
+    <Folder Include="tkinter projects\Stopwatch_in_a_separate_window" />
+    <Folder Include="tkinter projects\Tamagochi" />
+    <Folder Include="tkinter projects\temp" />
+    <Folder Include="tkinter projects\timer" />
+    <Folder Include="tkinter projects\walls decreasing" />
+    <Folder Include="Turtle_arts" />
+    <Folder Include="white board" />
+    <Folder Include="words API\" />
+    <Folder Include="words API\find_the_definition_game" />
+    <Folder Include="words API\random words game" />
+  </ItemGroup>
+  <ItemGroup>
+    <Interpreter Include="tempProject\">
+      <Id>tempProject</Id>
+      <Description>tempProject (Python 3.10 (64-bit))</Description>
+      <InterpreterPath>Scripts\python.exe</InterpreterPath>
+      <WindowsInterpreterPath>Scripts\pythonw.exe</WindowsInterpreterPath>
+      <Version>3.10</Version>
+      <Architecture>X64</Architecture>
+      <PathEnvironmentVariable>PYTHONPATH</PathEnvironmentVariable>
+    </Interpreter>
+    <Interpreter Include="venv\">
+      <Id>venv</Id>
+      <Description>venv (Python 3.10 (64-bit))</Description>
+      <InterpreterPath>Scripts\python.exe</InterpreterPath>
+      <WindowsInterpreterPath>Scripts\pythonw.exe</WindowsInterpreterPath>
+      <Version>3.10</Version>
+      <Architecture>X64</Architecture>
+      <PathEnvironmentVariable>PYTHONPATH</PathEnvironmentVariable>
+    </Interpreter>
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
+</Project>

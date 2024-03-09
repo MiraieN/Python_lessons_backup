@@ -2,7 +2,16 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/../Avoid_Obstacles/.idea/Avoid_Obstacles.iml" filepath="$PROJECT_DIR$/../Avoid_Obstacles/.idea/Avoid_Obstacles.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../Currency_converter/.idea/Currency_converter.iml" filepath="$PROJECT_DIR$/../Currency_converter/.idea/Currency_converter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../LeetCode/.idea/LeetCode.iml" filepath="$PROJECT_DIR$/../LeetCode/.idea/LeetCode.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../Snake_game/.idea/Snake_game.iml" filepath="$PROJECT_DIR$/../Snake_game/.idea/Snake_game.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../Student_random/.idea/Student_random.iml" filepath="$PROJECT_DIR$/../Student_random/.idea/Student_random.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../pygame_projects/.idea/pygame_projects.iml" filepath="$PROJECT_DIR$/../pygame_projects/.idea/pygame_projects.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/pythonProject2.iml" filepath="$PROJECT_DIR$/.idea/pythonProject2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../selenium_humen_auto_paste/.idea/selenium_humen_auto_paste.iml" filepath="$PROJECT_DIR$/../selenium_humen_auto_paste/.idea/selenium_humen_auto_paste.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../shooter/.idea/shooter.iml" filepath="$PROJECT_DIR$/../shooter/.idea/shooter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../tutorial_django_project/.idea/tutorial_django_project.iml" filepath="$PROJECT_DIR$/../tutorial_django_project/.idea/tutorial_django_project.iml" />
     </modules>
   </component>
 </project>
