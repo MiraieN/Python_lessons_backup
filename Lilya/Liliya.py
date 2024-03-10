@@ -1052,7 +1052,7 @@
 #                        "phone": "+102241784",
 #                        "ad_status": True},
 #          }
-# print(users["Nick"]["email"])
+# print(users['Nick']['phone'])
 # for v in users.values():
 #     print(v['phone'])
 # for k, v in users.items():
