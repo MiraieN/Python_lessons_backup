@@ -24,7 +24,7 @@ def word_into_definitions(word):
     except KeyError:
         createDefinitionLabel('The word is not typed correctly')
         return
-
+    print(response.json())
     for definition in definitions[:3]:
         createDefinitionLabel(definition)
     # definitions = ['definition1', 'definition2', 'definition3']

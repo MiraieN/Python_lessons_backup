@@ -2409,7 +2409,6 @@
 # quiz("Question", "ans1", "ans2", "apercot.png")
 
 
-
 # s = "apples"
 # print(s.count("p"))
 #
@@ -2667,3 +2666,79 @@
 # words api
 
 # parsing site
+
+# lst = [1, 2, 3]
+# lst.append(4)
+# lst.remove(3)
+# lst[2] = 2
+# print(lst[2])
+
+# tup = (1, 2, 3, 4)
+# tup[0] = 1
+# print(tup[1])
+
+# l = [1, 1, 1, 2, 1, 2]
+# l = set(l)
+# l = list(l)
+# print(l)
+
+# print({1, 2, 3} & {2, 3, 4})
+
+### DICTIONARY ### ### Словники ###
+# my_dict = {"one": 1,
+#            1: 123123,
+#            10: 1}
+# # key - my_dict[key]
+# print(my_dict['one'])
+
+# mobs = {
+#     "goblins": {
+#                 "amount": 10,
+#                 "rare": 3,
+#                 "common": 22},
+#     "wyverns": {
+#                 "amount": 3,
+#                 "rare": 7,
+#                 "common": 12},
+#     "goblins_mage": {
+#                 "amount": 5,
+#                 "mythril": 2,
+#                 "rare": 12,
+#                 "common": 15},
+#     "goblins_frost": {
+#                 "amount": 0,
+#                 "mythril": 7,
+#                 "rare": 18,
+#                 "common": 0},
+#     "orc_smither": {
+#                 "amount": 1,
+#                 "gods": 10,
+#                 "mythril": 25,
+#                 "rare": 32,
+#                 "common": 50}
+# }
+# # print(mobs['orc_smither'])
+# # for key in mobs.keys():       # щоб отримати доступ до ключів
+# #     print(key)
+#
+# for key in mobs.keys():
+#     d = mobs[key]
+#     print(d['amount'])
+
+
+my_dict = {'word': 'apple',
+           'definitions': [
+               {
+               'definition': 'native Eurasian tree widely cultivated in many varieties for its firm rounded edible fruits',
+               'partOfSpeech': 'noun'},
+               {
+               'definition': 'fruit with red or yellow or green skin and sweet to tart crisp whitish flesh',
+               'partOfSpeech': 'noun'}
+                          ]}
+
+# print(my_dict['definitions'][0]['partOfSpeech'])
+for definition in my_dict['definitions']:
+    print(definition['partOfSpeech'])
+
+'native Eurasian tree widely cultivated in many varieties for its firm rounded edible fruits'
+'fruit with red or yellow or green skin and sweet to tart crisp whitish flesh'
