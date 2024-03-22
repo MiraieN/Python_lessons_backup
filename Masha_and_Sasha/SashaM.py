@@ -1578,6 +1578,16 @@
 #         lil_nums += e     # додаємо елемент в рядок lil_nums
 # print(lil_nums)           # виводимо рядок lil_nums
 # print(len(lil_nums))      # виводимо довждину lil_nums
+#
+# numbers = '123127127390127312003213-128e12ei21yd123'        # рядок, з яким треба щось робити
+# lil_nums = ''             # рядок в який ми будемо щось класти
+# odd = '13579'             # рядок, в якому є цифри, які ми шукаємо
+# for e in numbers:         # цикл, кладемо кожен елемент з рядка numbers в змінну e
+#     if e in odd:          # якщо цей елемент є в рядку odd
+#         lil_nums += e     # додаємо елемент в рядок lil_nums
+# else:
+#     print(lil_nums)           # виводимо рядок lil_nums
+# print(len(lil_nums))      # виводимо довждину lil_nums
 
 # задача для класу
 # вивести всі парні числа з рядка і вивести кількість парних чисел в рядку
@@ -1587,13 +1597,25 @@
 # вивести всі голосні букви з рядка         'https://osu.ppy.sh/beatmapsets/331190#osu/733753'
 # вивести всі приголосні букви з рядка      'https://osu.ppy.sh/beatmapsets/331190#osu/733753'
 
+# # запитуємо в чому знайти що
+# string_to_check = int(input("Рядок який треба перевірити:"))
+# string_that_checks = int(input("Рядок який перевіряє:"))
+# string_that_keeps = ""
+# for e in string_to_check:
+#     if e in string_that_checks:
+#         string_that_keeps += e
+# print(string_that_keeps)
+# print(len(string_that_keeps))
 
-# кількість голосних/приголосних. те ж з count
 
 # next lesson
 
 # скласти рандомне слово 100 разів. (випадкова голосна, випадкова приголосна) | choice in str
+# скласти рандомне число з n цифр
 
+
+
+# кількість голосних/приголосних. те ж з count
 # bot with all the functionality
 
 

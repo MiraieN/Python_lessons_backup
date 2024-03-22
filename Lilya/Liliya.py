@@ -2089,5 +2089,33 @@ import re
 #         for e in el:
 
 
+# my_dict = {'word': 'apple',
+#            'definitions': [{'definition': 'native Eurasian tree widely cultivated in many varieties for its firm rounded edible fruits',
+#                             'partOfSpeech': 'noun'},
+#                            {'definition': 'fruit with red or yellow or green skin and sweet to tart crisp whitish flesh',
+#                             'partOfSpeech': 'noun'}]
+#            }
+#
+# for elem_in_list in my_dict['definitions']:
+#     print(elem_in_list['partOfSpeech'])
+
+# usr = '.'
+# while usr != "!stop":
+#     usr = input("?\n")
+#     print("Oh hi mark!")
+
+# is_digit_in_str = lambda txt: any(char.isdigit() for char in txt)
+#
+# while True:
+#     usr = input("your word?\n")
+#     while is_digit_in_str(usr) or '@' in usr:
+#         print("No numbers or @ are allowed")
+#         usr = input("try again?\n")
+#     if usr == '!stop':
+#         print("oka bye")
+#         break
+#     print("Oh hi mark!")
+
+
 # # tic tac toe
 # розібрати джоїн і найти саму прогу
