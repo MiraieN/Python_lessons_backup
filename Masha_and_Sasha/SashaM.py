@@ -1607,13 +1607,42 @@
 # print(string_that_keeps)
 # print(len(string_that_keeps))
 
-
-# next lesson
-
-# скласти рандомне слово 100 разів. (випадкова голосна, випадкова приголосна) | choice in str
 # скласти рандомне число з n цифр
 
+# from random import choice
+#
+# numbers = "1234567890"
+# gotove_chuslo = ""
+# n = int(input("Скільки цифр в числі?"))
+# for e in range(n):
+#     random_number = choice(numbers)
+#     gotove_chuslo += random_number
+# print(f"Ваше число з {n} цифр це: {gotove_chuslo}")
 
+# # скласти рандомне число з n цифр при умові що цифри чередуються: парне, непарне, парне, непарне....
+# from random import choice
+#
+# odd = "135790"
+# even = "24680"
+# gotove_chuslo = ""
+#
+# n = int(input("Скільки цифр в числі?"))
+#
+# for e in range(n//2):                   # // відкидає десяткову частину. Робимо бо треба половину n
+#     random_number = choice(odd)
+#     gotove_chuslo += random_number
+#
+#     random_number = choice(even)
+#     gotove_chuslo += random_number
+# print(f"Ваше число з {n} цифр це: {gotove_chuslo}")
+
+# дз
+# скласти рандомне слово з n букв.
+# скласти рандомне слово з n букв. (випадкова голосна, випадкова приголосна)
+# скласти рандомне слово з n букв 100 разів. (випадкова голосна, випадкова приголосна)
+
+
+# next lesson
 
 # кількість голосних/приголосних. те ж з count
 # bot with all the functionality
